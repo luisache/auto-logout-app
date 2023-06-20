@@ -1,0 +1,13 @@
+<div class="dialog-wrapper">
+  <h1 class="title">You're about to be logged out</h1>
+  <div class="message">
+    <p>This station does not seem to be active.</p>
+    <p>
+      You'll be logged out in <strong> {{ count }} seconds</strong>
+    </p>
+  </div>
+
+  <button (click)="restartCountdown()" mat-raised-button color="primary">
+    Stay Logged In
+  </button>
+</div>
